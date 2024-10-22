@@ -17,5 +17,10 @@ function draw(){
   } else {
     size = (cycle - count) + 50;
   }
+  if (keyIsPressed) {
+    increment = 2;
+  } else {
+   increment = 1;
+    }
   ellipse(width / 2, height / 2, size);
 }
