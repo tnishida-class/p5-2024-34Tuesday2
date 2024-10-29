@@ -11,5 +11,5 @@ function setup(){
       stroke(255, 0, 0);
     }
     ellipse(width/2, height/2, d, d)
-    }
+  }
   }
