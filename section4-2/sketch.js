@@ -25,7 +25,6 @@ function mouseDragged(){
   const dy = mouseY - pmouseY;
   if(mag(dx, dy) > 5){
     const b = { x: mouseX, y: mouseY, size: random(1, 40), vx: dx, vy: dy };
-    // 練習問題：ボールのサイズをランダムに変更してみよう
     balls.push(b);
   }
 }

@@ -17,8 +17,8 @@ function draw(){
 
   if(keyIsDown(LEFT_ARROW)){ x -= 5; }
   if(keyIsDown(RIGHT_ARROW)){ x += 5; }
-  if(keyIsDown("A".charCodeAt(0))){ x+= 10; }
-  if(keyIsDown(" ".charCodeAt(0))){ x-= 10; }
+  if(keyIsDown("A".charCodeAt(0))){ x+= 20; }
+  if(keyIsDown(" ".charCodeAt(0))){ x-= 20; }
 }
 
 // イベントハンドラを使用するパターン
